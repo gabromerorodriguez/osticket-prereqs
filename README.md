@@ -22,34 +22,45 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Enable Internet Information Services (IIS) with CGI and common HTTP features.
+- Install PHP manager and Rewrite Module.
+- Install C++ Redistributable.
+- Install MySQL Database.
+- Configure permissions and install osTicket. 
 
 <h2>Installation Steps</h2>
-
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="346" alt="Capture1" src="https://github.com/gabromerorodriguez/osticket-prereqs/assets/163021104/d7de077f-d3ad-41e0-803b-956d9fe17678">
+<img width="342" alt="Capture2" src="https://github.com/gabromerorodriguez/osticket-prereqs/assets/163021104/ae6b5a19-709e-4f3c-8845-88a5934109b8">
+<img width="642" alt="Capture3" src="https://github.com/gabromerorodriguez/osticket-prereqs/assets/163021104/b0ccb974-f924-4193-9a49-be30b91208f1">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Enabling Internet Information Services (IIS) and activating Common Gateway Interface (CGI) on a Windows-based system through the Control Panel configuration. For verification and testing purposes, we opened the web browser and enter "http://127.0.0.1" in the address bar and IIS welcome page displayed.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="446" alt="Capture4" src="https://github.com/gabromerorodriguez/osticket-prereqs/assets/163021104/1a281bcf-5367-46c0-b07d-27e9fe986635">
+<img width="513" alt="Capture6" src="https://github.com/gabromerorodriguez/osticket-prereqs/assets/163021104/6e11868b-0a4c-4091-9949-753df76f63ce">
+<img width="397" alt="Capture5" src="https://github.com/gabromerorodriguez/osticket-prereqs/assets/163021104/9af94946-b6a1-4417-92c9-1625c976615e">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+We installed PHP manager and Rewrite Module. PHP Manager is a tool used to simplify the configuration and management of PHP on Internet Information Services (IIS) web servers. Rewrite Module is commonly used to enhance website functionality, improve search engine optimization (SEO), and create user-friendly URLs. In addition we downloaded PHP.7.3.8 version and unzipped in the PHP folder that we created for this lab. 
+</p>
+<br />
+
+<p>
+<img width="458" alt="Capture7" src="https://github.com/gabromerorodriguez/osticket-prereqs/assets/163021104/b755c687-ddea-49b6-a856-fdd4e89dc9ff">
+</p>
+<p>
+At this point, programs MySQL and C++ Redistributable were installed. When installing MySQL we configured the credentials to finsish the install process. 
+</p>
+<br />
+
+<p>
+<img width="504" alt="Capture8" src="https://github.com/gabromerorodriguez/osticket-prereqs/assets/163021104/d3d08a6a-a379-40af-9b53-07f724f3e399">
+</p>
+<p>
+We finished installing all programs needed to support osTicket. Next, we moved to the configuration inside IIS by registering the PHP
 </p>
 <br />
